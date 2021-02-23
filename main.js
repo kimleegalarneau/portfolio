@@ -1,5 +1,7 @@
 // import './style.css'
-import 'horizontal-scroll/src/';
+// import 'horizontal-scroll/dist/index';
+// import 'horizontal-scroll/dist/ho'
+import HorizontalScroll from 'horizontal-scroll/src/index'
 
 document.querySelector('#app').innerHTML = `
   <h1>Hello Vite!</h1>
