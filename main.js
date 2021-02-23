@@ -1,4 +1,4 @@
-import './style.css'
+// import './style.css'
 import 'horizontal-scroll/src/';
 
 document.querySelector('#app').innerHTML = `
