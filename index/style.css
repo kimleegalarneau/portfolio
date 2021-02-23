@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Crenzo';
+    src: url(font/CRENZO.otf);
+}
+@font-face {
+    font-family: 'Telegraf regular';
+    src: url(font/Telegraf-Regular.otf);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: #0c0c0c;
+    overflow: hidden;
+    font-family: "Telegraf regular";
+    text-transform: uppercase;
+}
+
+.container {
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.entete {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.titre {
+    font-size: 20px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.menu {
+    float: right; 
+    margin-right: 30px;
+    font-size: 60px;
+}
+
+div:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: white;
+}
+
+.block {
+    position: relative;
+    width: 700px;
+    height: 800px;
+    margin: 0px 10px 20px 150px;
+    background-size: cover;
+}
+
+.description {
+    font-family: "Telegraf regular";
+    font-size: 17px;
+    position: fixed;
+    left: 50px;
+    bottom: 20px;
+    padding: 0;
+}
+
+.overlay-texte-boite {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 1;
+}
+
+.overlay-texte-1 {
+    font-family: 'Crenzo';
+    font-size: 120px;
+    margin-bottom: 0px;
+}
+
+.overlay-texte-2 {
+    font-size: 22px;
+}
+
+.block-1 {
+    background: url(images/img0001.jpeg) no-repeat 100% 100%;
+    background-size: cover;
+}
+.block-2 {
+    background: url(images/img0002.jpeg) no-repeat 100% 100%;
+    background-size: cover;
+}
+.block-3 {
+    background: url(images/img0003.jpeg) no-repeat 100% 100%;
+    background-size: cover;
+}
+.block-4 {
+    background: url(images/img0004.jpeg) no-repeat 100% 100%;
+    background-size: cover;
+}
+.block-5 {
+    background: url(images/img0005.jpeg) no-repeat 100% 100%;
+    background-size: cover;
+}
+.block-6 {
+    background: url(images/img0006.jpeg) no-repeat 100% 100%;
+    background-size: cover;
+}
+
+
+@media (hover: hover) and (pointer: fine) {
+    #cursor {
+      z-index: 99;
+      position: fixed;
+      left: 0;
+      top: 0;
+      pointer-events: none;
+      will-change: transform;
+    }
+  
+    #cursor .cursor--inner {
+      width: 5vw;
+      height: 5vw;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      border: solid 1px #FFFFFF;
+    }
+}
